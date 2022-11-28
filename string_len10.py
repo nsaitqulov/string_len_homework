@@ -8,4 +8,7 @@ def main(s):
     Returns:
         bool: answer
     """
-    return
+    x=s[0]
+    y=s[-1]
+    return x==y
+print(main("dcd"))
